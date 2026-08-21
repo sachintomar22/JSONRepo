@@ -36,8 +36,8 @@
       "AssigneeUserId": "",
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "Description": "",
-      "DateCreation": "8/21/2026 11:09:32 AM +00:00",
-      "DateModify": "8/21/2026 11:09:32 AM +00:00",
+      "DateCreation": "8/21/2026 4:39:32 PM +00:00",
+      "DateModify": "8/21/2026 11:09:55 AM +00:00",
       "Title": "22Subflow2",
       "Type": "SubFlow",
       "IsDeleted": "False",
@@ -51,7 +51,7 @@
       "TemplateId": "",
       "Type": "ModuleHeader",
       "Key": "Header",
-      "Title": "22Subflow2",
+      "Title": "",
       "SortOrder": "0",
       "ValueId": "",
       "LType": "LSignal",
@@ -61,6 +61,57 @@
       "IsBlockPropertyChecked": "",
       "CustomSortOrder": "0",
       "Id": "f9326b86-7d64-4c9d-83bf-b4ade55e00b7"
+    },
+    {
+      "ParentBuildingBlockId": "a6657749-f563-4497-8d88-0c5ecef6f2fc",
+      "ParentFlowPropertyId": "48ddaf09-a3d7-473d-b4c3-acc068ab67cc",
+      "TemplateId": "",
+      "Type": "TokenizedText",
+      "Key": "TokenizedText",
+      "Title": "",
+      "SortOrder": "0",
+      "ValueId": "6c690fb1-3af2-4180-b291-b4ad008600b8",
+      "LType": "LText",
+      "Value": "LeapTest.Entities.LValues.LTextEntity",
+      "ConnectedTo": "",
+      "IsExpanded": "False",
+      "IsBlockPropertyChecked": "True",
+      "CustomSortOrder": "0",
+      "Id": "5454924b-d2cf-4e0e-828c-183b7d1053c3"
+    },
+    {
+      "ParentBuildingBlockId": "a6657749-f563-4497-8d88-0c5ecef6f2fc",
+      "ParentFlowPropertyId": "",
+      "TemplateId": "",
+      "Type": "TypeTextBlock",
+      "Key": "Text",
+      "Title": "",
+      "SortOrder": "1",
+      "ValueId": "ee53def6-83a8-464d-a9c4-b4ad008600b8",
+      "LType": "LSignal",
+      "Value": "",
+      "ConnectedTo": "",
+      "IsExpanded": "False",
+      "IsBlockPropertyChecked": "True",
+      "CustomSortOrder": "0",
+      "Id": "48ddaf09-a3d7-473d-b4c3-acc068ab67cc"
+    },
+    {
+      "ParentBuildingBlockId": "a6657749-f563-4497-8d88-0c5ecef6f2fc",
+      "ParentFlowPropertyId": "",
+      "TemplateId": "",
+      "Type": "Header",
+      "Key": "Header",
+      "Title": "Log message",
+      "SortOrder": "0",
+      "ValueId": "636c029b-58ed-43f8-8b46-b4ad008600b8",
+      "LType": "LSignal",
+      "Value": "",
+      "ConnectedTo": "",
+      "IsExpanded": "False",
+      "IsBlockPropertyChecked": "",
+      "CustomSortOrder": "0",
+      "Id": "2e7b61db-4b79-4057-925f-dc93aa3fedbb"
     }
   ],
   "Flowchart5": [
@@ -71,10 +122,31 @@
       "YPosition": "-4500",
       "Width": "10000",
       "Hight": "10000",
-      "BuildingBlocks": "",
-      "FlowProperties": "",
+      "BuildingBlocks": "System.Collections.Generic.List`1[LeapTest.Entities.BuildingBlockInfo]",
+      "FlowProperties": "System.Collections.Generic.List`1[LeapTest.Entities.FlowPropertyInfo]",
       "IsDeleted": "False",
       "Id": "2904f5c0-4b2c-45e4-b639-95ad264d5d9f"
+    }
+  ],
+  "BuildingBlockInfo6": [
+    {
+      "Title": "Log message",
+      "XPosition": "4840",
+      "YPosition": "4730",
+      "IsExpanded": "True",
+      "Width": "150",
+      "TemplateId": "",
+      "FlowchartId": "2904f5c0-4b2c-45e4-b639-95ad264d5d9f",
+      "Type": "LogMessage",
+      "Note": "",
+      "IsNoteVisible": "False",
+      "Id": "a6657749-f563-4497-8d88-0c5ecef6f2fc"
+    }
+  ],
+  "LTextEntity29": [
+    {
+      "Value": "",
+      "Id": "6c690fb1-3af2-4180-b291-b4ad008600b8"
     }
   ],
   "UsedTypes": [
