@@ -47,8 +47,8 @@
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "AgentConfigurationId": "",
       "Description": "",
-      "DateCreation": "8/23/2026 10:22:44 AM +00:00",
-      "DateModify": "8/23/2026 10:22:44 AM +00:00",
+      "DateCreation": "8/23/2026 10:21:50 AM +00:00",
+      "DateModify": "8/23/2026 11:51:59 AM +00:00",
       "Title": "SecondFlow",
       "Type": "Flow",
       "IsDeleted": "False",
@@ -93,7 +93,7 @@
       "Key": "Header",
       "Title": "Wait",
       "SortOrder": "0",
-      "ValueId": "e876776b-c1ac-4b18-8a54-b4af0aba00ab",
+      "ValueId": "e2f4fc3a-83e5-4329-b636-b4afcb4500aa",
       "LType": "LSignal",
       "Value": "",
       "ConnectedTo": "",
@@ -110,7 +110,7 @@
       "Key": "Delay",
       "Title": "",
       "SortOrder": "1",
-      "ValueId": "891239f8-c3e7-4806-9d06-b4af0aba00ab",
+      "ValueId": "40e22059-4978-45fb-aa1a-b4afcb4500aa",
       "LType": "LNumber",
       "Value": "LeapTest.Entities.LValues.LNumberEntity",
       "ConnectedTo": "",
@@ -122,8 +122,8 @@
   ],
   "LNumberEntity27": [
     {
-      "Value": "98",
-      "Id": "891239f8-c3e7-4806-9d06-b4af0aba00ab"
+      "Value": "19",
+      "Id": "40e22059-4978-45fb-aa1a-b4afcb4500aa"
     }
   ],
   "UsedTypes": [
