@@ -47,8 +47,8 @@
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "AgentConfigurationId": "",
       "Description": "",
-      "DateCreation": "8/20/2026 9:43:46 AM +00:00",
-      "DateModify": "8/20/2026 9:43:46 AM +00:00",
+      "DateCreation": "8/23/2026 10:21:50 AM +00:00",
+      "DateModify": "8/23/2026 10:21:50 AM +00:00",
       "Title": "SecondFlow",
       "Type": "Flow",
       "IsDeleted": "False",
@@ -63,10 +63,67 @@
       "YPosition": "-4950",
       "Width": "10000",
       "Hight": "10000",
-      "BuildingBlocks": "",
-      "FlowProperties": "",
+      "BuildingBlocks": "System.Collections.Generic.List`1[LeapTest.Entities.BuildingBlockInfo]",
+      "FlowProperties": "System.Collections.Generic.List`1[LeapTest.Entities.FlowPropertyInfo]",
       "IsDeleted": "False",
       "Id": "b5c76904-0548-4fea-94d6-22dca820d945"
+    }
+  ],
+  "BuildingBlockInfo6": [
+    {
+      "Title": "Wait",
+      "XPosition": "5140",
+      "YPosition": "5020",
+      "IsExpanded": "True",
+      "Width": "150",
+      "TemplateId": "",
+      "FlowchartId": "b5c76904-0548-4fea-94d6-22dca820d945",
+      "Type": "Wait",
+      "Note": "",
+      "IsNoteVisible": "False",
+      "Id": "4f25d39c-2133-4cdc-b4b6-d452172363a7"
+    }
+  ],
+  "FlowPropertyInfo7": [
+    {
+      "ParentBuildingBlockId": "4f25d39c-2133-4cdc-b4b6-d452172363a7",
+      "ParentFlowPropertyId": "",
+      "TemplateId": "",
+      "Type": "Header",
+      "Key": "Header",
+      "Title": "Wait",
+      "SortOrder": "0",
+      "ValueId": "e2f4fc3a-83e5-4329-b636-b4afcb4500aa",
+      "LType": "LSignal",
+      "Value": "",
+      "ConnectedTo": "",
+      "IsExpanded": "False",
+      "IsBlockPropertyChecked": "",
+      "CustomSortOrder": "0",
+      "Id": "8cce3110-07db-4a9c-8c17-6a9c73079735"
+    },
+    {
+      "ParentBuildingBlockId": "4f25d39c-2133-4cdc-b4b6-d452172363a7",
+      "ParentFlowPropertyId": "",
+      "TemplateId": "",
+      "Type": "Number",
+      "Key": "Delay",
+      "Title": "",
+      "SortOrder": "1",
+      "ValueId": "40e22059-4978-45fb-aa1a-b4afcb4500aa",
+      "LType": "LNumber",
+      "Value": "LeapTest.Entities.LValues.LNumberEntity",
+      "ConnectedTo": "",
+      "IsExpanded": "False",
+      "IsBlockPropertyChecked": "True",
+      "CustomSortOrder": "0",
+      "Id": "47f7655d-dd5f-4cd4-befd-ab560ca49e87"
+    }
+  ],
+  "LNumberEntity27": [
+    {
+      "Value": "19",
+      "Id": "40e22059-4978-45fb-aa1a-b4afcb4500aa"
     }
   ],
   "UsedTypes": [
