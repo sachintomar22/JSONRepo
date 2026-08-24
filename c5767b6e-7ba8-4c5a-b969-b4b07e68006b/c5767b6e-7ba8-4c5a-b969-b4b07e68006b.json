@@ -47,8 +47,8 @@
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "AgentConfigurationId": "",
       "Description": "",
-      "DateCreation": "8/24/2026 6:31:22 AM +00:00",
-      "DateModify": "8/24/2026 6:31:22 AM +00:00",
+      "DateCreation": "8/24/2026 6:31:37 AM +00:00",
+      "DateModify": "8/24/2026 6:31:37 AM +00:00",
       "Title": "TestFlow",
       "Type": "Flow",
       "IsDeleted": "False",
@@ -59,10 +59,10 @@
     {
       "Type": "Flow",
       "ZoomFactor": "100",
-      "XPosition": "0",
-      "YPosition": "0",
-      "Width": "0",
-      "Hight": "0",
+      "XPosition": "-4950",
+      "YPosition": "-4950",
+      "Width": "10000",
+      "Hight": "10000",
       "BuildingBlocks": "System.Collections.Generic.List`1[LeapTest.Entities.BuildingBlockInfo]",
       "FlowProperties": "System.Collections.Generic.List`1[LeapTest.Entities.FlowPropertyInfo]",
       "IsDeleted": "False",
@@ -71,11 +71,24 @@
   ],
   "BuildingBlockInfo6": [
     {
+      "Title": "Wait",
+      "XPosition": "5270",
+      "YPosition": "5000",
+      "IsExpanded": "True",
+      "Width": "150",
+      "TemplateId": "",
+      "FlowchartId": "c1d7b8b8-8082-4a4b-a514-8ea14e2c1a83",
+      "Type": "Wait",
+      "Note": "",
+      "IsNoteVisible": "False",
+      "Id": "8bfb362e-c0e4-46ab-be81-70404dccd7a6"
+    },
+    {
       "Title": "Start",
       "XPosition": "5000",
       "YPosition": "5000",
-      "IsExpanded": "False",
-      "Width": "0",
+      "IsExpanded": "True",
+      "Width": "150",
       "TemplateId": "",
       "FlowchartId": "c1d7b8b8-8082-4a4b-a514-8ea14e2c1a83",
       "Type": "Start",
@@ -86,6 +99,40 @@
   ],
   "FlowPropertyInfo7": [
     {
+      "ParentBuildingBlockId": "8bfb362e-c0e4-46ab-be81-70404dccd7a6",
+      "ParentFlowPropertyId": "",
+      "TemplateId": "",
+      "Type": "Number",
+      "Key": "Delay",
+      "Title": "",
+      "SortOrder": "1",
+      "ValueId": "5fee94ea-f4ec-4651-bf99-b4b08f94006b",
+      "LType": "LNumber",
+      "Value": "LeapTest.Entities.LValues.LNumberEntity",
+      "ConnectedTo": "",
+      "IsExpanded": "False",
+      "IsBlockPropertyChecked": "True",
+      "CustomSortOrder": "0",
+      "Id": "9dde5667-77c3-4b87-8594-33beb2fefc10"
+    },
+    {
+      "ParentBuildingBlockId": "8bfb362e-c0e4-46ab-be81-70404dccd7a6",
+      "ParentFlowPropertyId": "",
+      "TemplateId": "",
+      "Type": "Header",
+      "Key": "Header",
+      "Title": "Wait",
+      "SortOrder": "0",
+      "ValueId": "4d3384a6-eaa2-4f1d-91de-b4b08f94006b",
+      "LType": "LSignal",
+      "Value": "",
+      "ConnectedTo": "",
+      "IsExpanded": "False",
+      "IsBlockPropertyChecked": "",
+      "CustomSortOrder": "0",
+      "Id": "cd3fe872-6437-48d2-ad3e-6a8d072fb10d"
+    },
+    {
       "ParentBuildingBlockId": "73a5ffcd-3ec8-4cac-b827-c6ae97c737bc",
       "ParentFlowPropertyId": "",
       "TemplateId": "",
@@ -93,10 +140,10 @@
       "Key": "Header",
       "Title": "Start",
       "SortOrder": "0",
-      "ValueId": "e506ce65-8081-44e7-9e69-b4b07f09006b",
+      "ValueId": "5774004a-a7ca-40fd-8d19-b4b08f94006b",
       "LType": "LSignal",
       "Value": "",
-      "ConnectedTo": "",
+      "ConnectedTo": "System.Collections.Generic.List`1[LeapTest.Entities.ConnectedPropertyInfo]",
       "IsExpanded": "False",
       "IsBlockPropertyChecked": "",
       "CustomSortOrder": "0",
@@ -110,20 +157,34 @@
       "Key": "StartAction",
       "Title": "",
       "SortOrder": "1",
-      "ValueId": "edc3f07e-081c-4dbd-93a0-b4b07f0a006b",
+      "ValueId": "5df44ba2-e135-4763-a7f7-b4b08f94006b",
       "LType": "LText",
       "Value": "LeapTest.Entities.LValues.LTextEntity",
       "ConnectedTo": "",
       "IsExpanded": "False",
-      "IsBlockPropertyChecked": "",
+      "IsBlockPropertyChecked": "True",
       "CustomSortOrder": "0",
       "Id": "4c2d0adc-ea29-43a2-8d7d-4049d36acb68"
+    }
+  ],
+  "LNumberEntity27": [
+    {
+      "Value": "3",
+      "Id": "5fee94ea-f4ec-4651-bf99-b4b08f94006b"
+    }
+  ],
+  "ConnectedPropertyInfo8": [
+    {
+      "OutputFlowPropertyId": "c1544a03-32eb-4379-beb5-1ccab124fd8e",
+      "InputFlowPropertyId": "cd3fe872-6437-48d2-ad3e-6a8d072fb10d",
+      "ConnectedPropertyWireGuides": "System.Collections.Generic.List`1[LeapTest.Entities.ConnectedPropertyWireguide]",
+      "Id": "dd017c7e-0451-4366-8f2a-b4b08f94006b"
     }
   ],
   "LTextEntity29": [
     {
       "Value": "NoAction",
-      "Id": "edc3f07e-081c-4dbd-93a0-b4b07f0a006b"
+      "Id": "5df44ba2-e135-4763-a7f7-b4b08f94006b"
     }
   ],
   "UsedTypes": [
