@@ -3,7 +3,7 @@
   "Flows": [
     {
       "EnvironmentId": "00000000-0000-0000-0000-000000000000",
-      "TimeoutSeconds": "600",
+      "TimeoutSeconds": "600000",
       "DefaultTimeoutSec": "10",
       "IsFailedUnlessPassed": "True",
       "VideoRecording": "HighQuality",
@@ -18,8 +18,8 @@
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "AgentConfigurationId": "",
       "Description": "",
-      "DateCreation": "8/31/2026 6:38:49 AM +00:00",
-      "DateModify": "8/31/2026 6:38:50 AM +00:00",
+      "DateCreation": "8/31/2026 6:39:05 AM +00:00",
+      "DateModify": "8/31/2026 6:39:05 AM +00:00",
       "Title": "NewFlow",
       "Type": "Flow",
       "IsDeleted": "False",
@@ -1076,7 +1076,7 @@
   "UnassociatedExportData": {
     "DesktopElementInfo13": [
       {
-        "StrategyListSource": "f9cfdd20-5c1d-4eb0-8c35-faf27fbf9446",
+        "StrategyListSource": "029b050c-0c58-495d-b85b-cfdccb73699b",
         "ClickPointX": "1376",
         "ClickPointY": "1055",
         "InspectedHight": "1080",
