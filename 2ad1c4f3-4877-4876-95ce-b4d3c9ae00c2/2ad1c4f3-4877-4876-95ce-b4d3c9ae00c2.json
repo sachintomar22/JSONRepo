@@ -18,8 +18,8 @@
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "AgentConfigurationId": "",
       "Description": "",
-      "DateCreation": "9/29/2026 5:39:23 AM +00:00",
-      "DateModify": "9/29/2026 5:39:23 AM +00:00",
+      "DateCreation": "9/29/2026 5:44:47 AM +00:00",
+      "DateModify": "9/29/2026 5:44:47 AM +00:00",
       "Title": "NewFlow",
       "Type": "Flow",
       "IsDeleted": "False",
@@ -55,7 +55,7 @@
                 "Key": "Header",
                 "Title": "Start",
                 "SortOrder": "0",
-                "ValueId": "0e7739f9-3d35-4d67-bc9f-b4d437de005d",
+                "ValueId": "6082cde0-fc4c-4137-b4c5-b4d4b342005e",
                 "LType": "LSignal",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "True",
@@ -66,7 +66,7 @@
                   {
                     "OutputFlowPropertyId": "170c46c1-92c6-44a7-a1dc-0f3887de4306",
                     "InputFlowPropertyId": "77fc0abb-f84f-4eb1-a2af-636ba396c4a3",
-                    "Id": "3f1bfae4-7605-4eda-9063-b4d437de005d",
+                    "Id": "b46e22c5-b70f-400f-9780-b4d4b342005e",
                     "WireGuides": []
                   }
                 ]
@@ -79,7 +79,7 @@
                 "Key": "StartAction",
                 "Title": "",
                 "SortOrder": "1",
-                "ValueId": "652a30e5-b7e4-4709-a39d-b4d437de005d",
+                "ValueId": "30a93d20-2924-49e5-8532-b4d4b342005e",
                 "LType": "LText",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "True",
@@ -89,7 +89,7 @@
                 "Connections": [],
                 "Value": {
                   "Value": "NoAction",
-                  "Id": "652a30e5-b7e4-4709-a39d-b4d437de005d"
+                  "Id": "30a93d20-2924-49e5-8532-b4d4b342005e"
                 }
               }
             ]
@@ -115,7 +115,7 @@
                 "Key": "ModuleInput",
                 "Title": "Start",
                 "SortOrder": "1",
-                "ValueId": "8454afc9-36f8-4225-8b85-b4d437de005d",
+                "ValueId": "cfaf5fc3-d4a9-438b-84d5-b4d4b342005e",
                 "LType": "LSignal",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "True",
@@ -132,7 +132,7 @@
                 "Key": "Header",
                 "Title": "",
                 "SortOrder": "0",
-                "ValueId": "1e559583-c6ab-47b8-8c3f-b4d437de005d",
+                "ValueId": "2b8bf32c-2c43-44d9-8e68-b4d4b342005e",
                 "LType": "LSignal",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "True",
@@ -164,10 +164,10 @@
                 "Key": "Header",
                 "Title": "Wait",
                 "SortOrder": "0",
-                "ValueId": "43b810d4-802a-479b-9854-b4d437de005d",
+                "ValueId": "2d4ecd34-c649-4999-93b6-b4d4b342005e",
                 "LType": "LSignal",
                 "IsExpanded": "False",
-                "IsBlockPropertyChecked": "",
+                "IsBlockPropertyChecked": "True",
                 "CustomSortOrder": "0",
                 "Id": "77fc0abb-f84f-4eb1-a2af-636ba396c4a3",
                 "ChildProperties": [],
@@ -175,7 +175,7 @@
                   {
                     "OutputFlowPropertyId": "77fc0abb-f84f-4eb1-a2af-636ba396c4a3",
                     "InputFlowPropertyId": "63c7452a-d4e2-4f66-9f5c-fa95d3912f08",
-                    "Id": "7bcad925-984d-4d03-8b9c-b4d437de005d",
+                    "Id": "e96b15fb-8d46-4b60-b28a-b4d4b342005e",
                     "WireGuides": []
                   }
                 ]
@@ -188,7 +188,7 @@
                 "Key": "Delay",
                 "Title": "",
                 "SortOrder": "1",
-                "ValueId": "2f29ea6f-b242-4e24-8aec-b4d437de005d",
+                "ValueId": "d4fb9a02-ede2-4f2d-9b40-b4d4b342005e",
                 "LType": "LNumber",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "True",
@@ -198,7 +198,7 @@
                 "Connections": [],
                 "Value": {
                   "Value": "3",
-                  "Id": "2f29ea6f-b242-4e24-8aec-b4d437de005d"
+                  "Id": "d4fb9a02-ede2-4f2d-9b40-b4d4b342005e"
                 }
               }
             ]
